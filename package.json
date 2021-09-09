@@ -1,0 +1,40 @@
+{
+  "name": "dx-pointz-gcp",
+  "version": "1.0.0",
+  "description": "GCP related stuff for Dx Pointz",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "format": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentral-intelligence/dx-pointz-gcp.git"
+  },
+  "keywords": [
+    "gcp",
+    "infrastructure",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentral-intelligence/dx-pointz-gcp/issues"
+  },
+  "homepage": "https://github.com/decentral-intelligence/dx-pointz-gcp#readme",
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.4.0",
+    "serverless": "^2.57.0"
+  },
+  "dependencies": {
+    "husky": "^7.0.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}

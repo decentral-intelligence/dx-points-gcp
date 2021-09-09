@@ -1,0 +1,37 @@
+{
+  "name": "@dxpoints/fn-create-user",
+  "version": "1.0.0",
+  "description": "Google Function for creating a user",
+  "keywords": [
+    "dxpointz",
+    "dextra",
+    "gcp",
+    "serverless"
+  ],
+  "author": "ohager <oliver.hager@dextra-sw.com>",
+  "homepage": "https://github.com/decentral-intelligence/dx-pointz-gcp/tree/main/packages/fn-create-user#readme",
+  "license": "MIT",
+  "main": "lib/fn-create-user.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentral-intelligence/dx-pointz-gcp.git"
+  },
+  "scripts": {
+    "deploy": "npx serverless deploy",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/decentral-intelligence/dx-pointz-gcp/issues"
+  },
+  "devDependencies": {
+    "serverless": "^2.57.0",
+    "serverless-google-cloudfunctions": "^4.4.0"
+  }
+}
